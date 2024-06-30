@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+  font-family: "hey";
+  src: url("../../assets/font/PlaywriteUSTrad-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/font/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "-georgia-font-family";
+  src: local("Georgia");
+}
+@font-face {
+  font-family: "-times-new-roman-font-family";
+  src: local("Times New Roman");
+}
+@font-face {
+  font-family: "-verdana-font-family";
+  src: local("Verdana");
+}
+
+// breakpoints for responsiveness
+$breakpoint-mobile-s: 320px;
+$breakpoint-mobile-m: 375px;
+$breakpoint-mobile-l: 425px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;
+$breakpoint-desktop: 1440px;
+
+@mixin response-to($breakpoint) {
+  @if $breakpoint == mobile-s {
+    @media (max-width: $breakpoint-mobile-s) {
+      @content;
+    }
+  } @else if $breakpoint == mobile-m {
+    @media (max-width: #{$breakpoint-mobile-m}) {
+      @content;
+    }
+  } @else if $breakpoint == mobile-l {
+    @media (max-width: #{$breakpoint-mobile-l}) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (max-width: #{$breakpoint-tablet}) {
+      @content;
+    }
+  } @else if $breakpoint == laptop {
+    @media (max-width: #{$breakpoint-laptop}) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (max-width: #{$breakpoint-desktop}) {
+      @content;
+    }
+  }
+}

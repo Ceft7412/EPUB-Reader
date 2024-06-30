@@ -1,0 +1,51 @@
+.whiteTheme {
+  background-color: white;
+}
+.whiteTheme.darkBorder {
+  border: 1px solid black;
+}
+.whiteCard {
+  background-color: rgb(246, 246, 246);
+}
+.whiteTheme.textColor {
+  color: black;
+}
+.whiteTheme.borderColor {
+  border: 1px solid gray;
+}
+
+//
+.darkTheme {
+  background-color: rgb(38 38 38);
+}
+.darkCard {
+  background-color: rgb(64 64 64);
+}
+
+.darkCard.whiteColor {
+  color: white;
+}
+
+.darkTheme.whiteColor {
+  color: white;
+}
+.darkTheme.borderColor {
+  border: 1px solid black;
+}
+
+//
+.sepiaTheme {
+  background-color: #eadbcb;
+}
+.sephiaTheme.sepiaBorder {
+  border: 1px solid #cda882;
+}
+.sepiaCard {
+  background-color: rgb(239, 217, 193);
+}
+.sepiaCard.sepiaColor {
+  color: #cda882;
+}
+.sepiaTheme.textColor {
+  color: #9c6f41;
+}
