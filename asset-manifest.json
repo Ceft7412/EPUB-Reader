@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/EPUB-Reader/static/css/main.3d13c34a.css",
+    "main.js": "/EPUB-Reader/static/js/main.18775f68.js",
+    "static/js/453.0897ec9a.chunk.js": "/EPUB-Reader/static/js/453.0897ec9a.chunk.js",
+    "static/media/Inter-Regular.ttf": "/EPUB-Reader/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/PlaywriteUSTrad-Regular.ttf": "/EPUB-Reader/static/media/PlaywriteUSTrad-Regular.8261ed4c59be9d4d98b3.ttf",
+    "static/media/loadon.gif": "/EPUB-Reader/static/media/loadon.be0ca3584d317d691da0.gif",
+    "index.html": "/EPUB-Reader/index.html",
+    "main.3d13c34a.css.map": "/EPUB-Reader/static/css/main.3d13c34a.css.map",
+    "main.18775f68.js.map": "/EPUB-Reader/static/js/main.18775f68.js.map",
+    "453.0897ec9a.chunk.js.map": "/EPUB-Reader/static/js/453.0897ec9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d13c34a.css",
+    "static/js/main.18775f68.js"
+  ]
+}
